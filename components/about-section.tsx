@@ -11,7 +11,7 @@ const benefits = [
 
 export function AboutSection() {
   return (
-    <section className="bg-background py-20 lg:py-28">
+    <section id="about" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Visual */}

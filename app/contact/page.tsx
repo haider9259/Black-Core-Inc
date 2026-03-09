@@ -11,19 +11,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "info@techsolutions.com",
-    href: "mailto:info@techsolutions.com",
+    content: "Khizerirfan21@gmail.com",
+    href: "mailto:Khizerirfan21@gmail.com",
   },
   {
     icon: Phone,
     title: "Phone",
-    content: "(123) 456-7890",
-    href: "tel:+1234567890",
+    content: "(447) 478-073689",
+    href: "tel:+447478073689",
   },
   {
     icon: MapPin,
     title: "Address",
-    content: "123 Tech Street, Suite 100\nSan Francisco, CA 94102",
+    content: " 742 North Orange, Street, Wilmington, DE 19801",
     href: null,
   },
   {
@@ -54,9 +54,9 @@ export default function ContactPage() {
       {/* Contact Section */}
       <section className="bg-background py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-2">
+          <div className="grid gap-12 lg:grid-cols-1">
             {/* Contact Form */}
-            <div>
+            {/* <div>
               <h2 className="text-2xl font-bold text-foreground">Send Us a Message</h2>
               <p className="mt-2 text-muted-foreground">
                 Fill out the form below and we'll get back to you within 24 hours.
@@ -64,7 +64,7 @@ export default function ContactPage() {
               <div className="mt-8">
                 <ContactForm />
               </div>
-            </div>
+            </div> */}
 
             {/* Contact Info */}
             <div>
@@ -100,7 +100,7 @@ export default function ContactPage() {
               </div>
 
               {/* Map Placeholder */}
-              <div className="mt-8 overflow-hidden rounded-xl border border-border">
+              <div className="mt-8 overflow-hidden rounded-xl border border-border hidden">
                 <div className="aspect-video bg-muted">
                   <div className="flex h-full items-center justify-center">
                     <div className="text-center">

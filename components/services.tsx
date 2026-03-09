@@ -5,37 +5,37 @@ const services = [
   {
     title: "iPhone Repair",
     description: "Screen replacements, battery swaps, and hardware fixes for all iPhone models.",
-    icon: Smartphone,
+    icon: "/images/smartphone.png",
   },
   {
     title: "Android Repair",
     description: "Expert repairs for Samsung, Google Pixel, OnePlus, and other Android devices.",
-    icon: Smartphone,
+    icon: "/images/android.png",
   },
   {
     title: "Desktop Repair",
     description: "Hardware upgrades, virus removal, and performance optimization for desktop PCs.",
-    icon: Monitor,
+    icon: "/images/computer.png",
   },
   {
     title: "Tablet Repair",
     description: "iPad and Android tablet repairs including screen, battery, and charging issues.",
-    icon: TabletSmartphone,
+    icon: "/images/tablet.png",
   },
   {
     title: "Laptop Repair",
     description: "Comprehensive laptop repairs for all major brands including Apple MacBooks.",
-    icon: Laptop,
+    icon: "/images/laptop.png",
   },
   {
     title: "Game Console Repair",
     description: "PlayStation, Xbox, and Nintendo Switch repairs for all common issues.",
-    icon: Gamepad2,
+    icon: "/images/game-controller.png",
   },
   {
     title: "Hardware / Software Repair",
     description: "Full diagnostic and repair services for both hardware and software problems.",
-    icon: Cpu,
+    icon: "/images/processor.png",
   },
 ]
 
